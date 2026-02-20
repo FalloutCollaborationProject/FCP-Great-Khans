@@ -5,20 +5,15 @@
 
     <!--___ Great Khan Simple Armor ___-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Simple_Armor</defName>
         <label>Great Khan simple armor</label>
         <description>Lightweight armor worn by lower-ranking Great Khans. Made from scavenged materials and leather, it offers basic protection while maintaining mobility. The tribal designs mark the wearer as a member of the Great Khans.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Great_Khan_Armory</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Great_Khan_Simple_Armor/FCP_Great_Khan_Simple_Armor</texPath>
@@ -73,20 +68,15 @@
 
     <!--___ Great Khan Soldier Armor ___-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Soldier_Armor</defName>
         <label>Great Khan soldier armor</label>
         <description>Durable armor worn by Great Khan soldiers. Built from reinforced leather and scavenged metal plates, this armor provides substantial protection without sacrificing too much mobility. The skull emblems and war paint show this warrior has proven themselves in battle.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Great_Khan_Armory</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Great_Khan_Soldier_Armor/FCP_Great_Khan_Soldier_Armor</texPath>
@@ -146,20 +136,15 @@
 
     <!--___ Great Khan Helmet ___-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Hat_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Helmet</defName>
         <label>Great Khan helmet</label>
         <description>A tribal helmet worn by Great Khans, decorated with war paint, feathers, and sometimes animal skulls. While it provides decent head protection, its primary purpose is to intimidate enemies and showcase the warrior's status within the tribe.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Great_Khan_Armory</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Great_Khan_Helmet/FCP_Great_Khan_Helmet</texPath>
@@ -213,20 +198,15 @@
 
     <!--___ Armored Leathers ___-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Armored_Leathers</defName>
         <label>armored leathers</label>
         <description>Reinforced leather armor favored by Great Khans and other wasteland raiders. This armor combines flexibility with decent protection, featuring metal studs and plates sewn into heavy leather. It's ideal for those who value mobility and a menacing appearance.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Great_Khan_Armory</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Great_Khan_Armored_Leather/FCP_Great_Khan_Armored_Leather</texPath>
@@ -284,20 +264,15 @@
 
     <!--___ Suit Armor ___-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Suit_Armor</defName>
         <label>suit armor</label>
         <description>A stylish yet protective outfit worn by elite Great Khans and high-ranking members. This unique armor combines pre-war formal wear with strategically placed armor plating, creating a distinctive look that commands respect. It's a symbol of status within the tribe.</description>
-        <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Great_Khan_Armory</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Great_Khan_Suit_Armor/FCP_Great_Khan_Suit_Armor</texPath>
