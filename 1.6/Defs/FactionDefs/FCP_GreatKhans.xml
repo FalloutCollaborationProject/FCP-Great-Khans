@@ -217,10 +217,13 @@
                     </li>
                 </roleOverrides>
             </li>
-		</modExtensions>        
+            <!-- Clusters and biome configuration -->
+            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+                <clustered>true</clustered>
+                <clusterRadius>30</clusterRadius>
+            </li>
+                </modExtensions>
     </FactionDef>
-
-    <!--__________ Raid Loot Maker __________-->
 
     <ThingSetMakerDef>
         <defName>FCP_KhanRaidLootMaker</defName>
