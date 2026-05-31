@@ -71,12 +71,91 @@
                 <countRange>5~15</countRange>
             </li>
 
+            <!-- Jet -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Jet</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+
+            <!-- Psycho -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Psycho</thingDef>
+                <countRange>20~60</countRange>
+            </li>
+
+            <!-- Buffout -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Buffout</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <!-- Mentats -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Mentats</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Turbo -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Turbo</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
             <!--__ Medicine __-->
+
+            <!-- Stimpak -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <!-- Med-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Rad-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_RadX</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!-- Radaway -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Radaway</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!-- Medicine -->
 
             <li Class="StockGenerator_Category">
                 <categoryDef>Medicine</categoryDef>
                 <thingDefCountRange>2~4</thingDefCountRange>
                 <countRange>5~15</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <!-- Raider Weapons -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Combat_Rifle_Standard</thingDef>
+                <countRange>1~4</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Bat_Spiked</thingDef>
+                <countRange>2~6</countRange>
             </li>
 
             <!--__ Buying __-->
@@ -86,6 +165,9 @@
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>PlantFoodRaw</tag>
             </li>
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
 
             <!--__ Currency __-->
 
@@ -162,6 +244,53 @@
                 <countRange>8~20</countRange>
             </li>
 
+            <!-- FCP Chems -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Jet</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Psycho</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Buffout</thingDef>
+                <countRange>30~70</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Mentats</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Turbo</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>30~70</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_RadX</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Radaway</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
             <!--__ Medicine __-->
 
             <li Class="StockGenerator_Category">
@@ -178,6 +307,20 @@
                 <countRange>5~20</countRange>
             </li>
 
+            <!--__ Weapons __-->
+
+            <!-- Raider Weapons -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Combat_Rifle_Standard</thingDef>
+                <countRange>1~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Bat_Spiked</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
             <!--__ Buying __-->
 
             <!-- Will buy raw materials for chem production -->
@@ -189,6 +332,9 @@
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>Art</tag>
             </li>
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
 
             <!--__ Currency __-->
 

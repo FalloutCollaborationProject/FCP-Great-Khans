@@ -218,7 +218,7 @@
                 </roleOverrides>
             </li>
             <!-- Clusters and biome configuration -->
-            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
             </li>
