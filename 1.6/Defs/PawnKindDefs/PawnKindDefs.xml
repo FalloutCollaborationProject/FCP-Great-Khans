@@ -436,7 +436,7 @@
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Raider_Armor</li>
         </apparelTags>
-        <weaponMoney>100~300</weaponMoney>
+        <weaponMoney>140~300</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
@@ -467,7 +467,7 @@
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Raider_Armor</li>
         </apparelTags>
-        <weaponMoney>50~200</weaponMoney>
+        <weaponMoney>140~200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>
@@ -504,7 +504,7 @@
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Raider_Armor</li>
         </apparelTags>
-        <weaponMoney>100~300</weaponMoney>
+        <weaponMoney>140~300</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>

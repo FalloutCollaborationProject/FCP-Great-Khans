@@ -219,6 +219,15 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <allowedBiomes>
+                    <li MayRequire="FIP.Arktos">Arktos_Mesa</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Canyon</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Mojave</li>
+                    <li MayRequire="FIP.Arktos">Arktos_Wasteland</li>
+                    <li>AridShrubland</li>
+                    <li>Desert</li>
+                    <li>ExtremeDesert</li>
+                </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
             </li>
