@@ -169,6 +169,28 @@
             <li Class="StockGenerator_BuyTradeTag"><tag>WeaponRanged</tag></li>
             <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
 
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Molotov_Cocktail</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Pipebomb</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Tincan</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <li Class="StockGenerator_SingleDef">
