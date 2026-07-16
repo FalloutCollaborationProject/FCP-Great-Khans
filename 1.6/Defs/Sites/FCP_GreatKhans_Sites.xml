@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Chem Debt -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Khan_Chem_Debt</defName>
+        <label>hostile camp</label>
+        <description>A rival gang holding a stolen Khan chem shipment.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Caravan_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Khan_Chem_Debt</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Chem_Debt_Outpost</defName>
+        <linkWithSite>FCP_Site_Khan_Chem_Debt</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Chem_Debt_Power</defName>
+        <linkWithSite>FCP_Site_Khan_Chem_Debt</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+    <!-- Site: Blood Feud -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Khan_Blood_Feud</defName>
+        <label>rival gang camp</label>
+        <description>A rival gang camp at the center of an old Khan blood feud.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Large_Campsite</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Khan_Blood_Feud</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Blood_Feud_Outpost</defName>
+        <linkWithSite>FCP_Site_Khan_Blood_Feud</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Blood_Feud_Power</defName>
+        <linkWithSite>FCP_Site_Khan_Blood_Feud</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

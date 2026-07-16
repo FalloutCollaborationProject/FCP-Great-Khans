@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enlistments with Factions __________-->
+
+    <!--_____ Great Khans _____-->
+
+    <FCP.Enlist.FactionEnlistOptionsDef>
+        <defName>FCP_Enlistment_GreatKhans</defName>
+        <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
+        <enlistGoodwillGain>5</enlistGoodwillGain>
+
+        <!-- Enlistment Options -->
+
+        <enlistLetterTitleKey>FCP_GreatKhans_Enlist_Letter_Title</enlistLetterTitleKey>
+        <enlistLetterLabelKey>FCP_GreatKhans_Enlist_Letter_Label</enlistLetterLabelKey>
+        <enlistButtonLabelKey>FCP_GreatKhans_Enlist_Button_Label</enlistButtonLabelKey>
+        <enlistButtonDescKey>FCP_GreatKhans_Enlist_Button_Desc</enlistButtonDescKey>
+        <enlistRequrementsNotSatisfiedKey>FCP_GreatKhans_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
+        <enlistedToHostileFactionKey>FCP_GreatKhans_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
+        <enlistButtonIconTexPath>UI/Memes/Loyalist</enlistButtonIconTexPath>
+        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
+        <enlistedWithKey>FCP_GreatKhans_Enlisted_With_Key</enlistedWithKey>
+
+        <!-- Mission Options -->
+
+        <missionsAreEnabled>true</missionsAreEnabled>
+        <missionsLabelKey>FCP_GreatKhans_Missions_Label</missionsLabelKey>
+        <missionsDescKey>FCP_GreatKhans_Missions_Desc</missionsDescKey>
+        <missionsButtonIconTexPath>UI/Abilities/CombatCommand</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>UI/Abilities/CombatCommand</missionsBackgroundMenuTexPath>
+        <missionsMenuDescriptionKey>FCP_GreatKhans_Menu_Missions_Desc</missionsMenuDescriptionKey>
+        <missionsMenuSelectQuestKey>FCP_GreatKhans_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
+        <missionsMenuStartQuestKey>FCP_GreatKhans_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
+        <missionsQuestCost>40</missionsQuestCost>
+        <missionsMenuStartQuestNoEnoughMoneyKey>FCP_GreatKhans_Not_Enough_Money</missionsMenuStartQuestNoEnoughMoneyKey>
+
+        <!-- Salary Options -->
+
+        <salaryIsEnabled>true</salaryIsEnabled>
+        <salaryDef>FCP_Currency_Caps</salaryDef>
+        <salaryLabelKey>FCP_GreatKhans_Salary_Label</salaryLabelKey>
+        <salaryDescKey>FCP_GreatKhans_Salary_Desc</salaryDescKey>
+        <salaryButtonIconTexPath>Things/Items/Currencies/FCP_Bottle_Caps_Currency/FCP_Bottle_Caps_Currency_a</salaryButtonIconTexPath>
+        <salaryRange>300~600</salaryRange>
+        <salaryPeriodDays>14</salaryPeriodDays>
+
+        <!-- Provision Options -->
+
+        <provisionOptions>
+            <li>
+                <provisionsLabelKey>FCP_GreatKhans_Provisions_Label</provisionsLabelKey>
+                <provisionsDescKey>FCP_GreatKhans_Provisions_Desc</provisionsDescKey>
+                <provisionsButtonIconTexPath>UI/Icons/ThingCategories/FoodMeals</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>MealSurvivalPack</thing>
+                        <amountRange>10~16</amountRange>
+                    </li>
+                    <li>
+                        <thing>Pemmican</thing>
+                        <amountRange>15~25</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>10</provisionsRestockInDays>
+            </li>
+        </provisionOptions>
+
+        <!-- Storage Options -->
+
+        <storageIsEnabled>true</storageIsEnabled>
+        <storageLabelKey>FCP_GreatKhans_Storage_Label</storageLabelKey>
+        <storageDescKey>FCP_GreatKhans_Storage_Desc</storageDescKey>
+        <storageButtonIconTexPath>UI/Icons/ThingCategories/ResourcesRaw</storageButtonIconTexPath>
+
+        <!-- Work Options -->
+
+        <recreationGainPerTick>0.0001</recreationGainPerTick>
+        <workOptions>
+            <li>
+                <workLabelKey>FCP_GreatKhans_Enforcer_Duty_Label</workLabelKey>
+                <workDescKey>FCP_GreatKhans_Enforcer_Duty_Desc</workDescKey>
+                <workButtonIconTexPath>UI/Roles/SpecialistProduction</workButtonIconTexPath>
+                <additionalRestFall>0.25</additionalRestFall>
+                <silverGainPerHour>9</silverGainPerHour>
+            </li>
+            <li>
+                <workLabelKey>FCP_GreatKhans_Field_Medic_Label</workLabelKey>
+                <workDescKey>FCP_GreatKhans_Field_Medic_Desc</workDescKey>
+                <workButtonIconTexPath>UI/Icons/ThingCategories/Medicine</workButtonIconTexPath>
+                <additionalRestFall>0.2</additionalRestFall>
+                <tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
+                <medicinesToTend>
+                    <li>MedicineHerbal</li>
+                </medicinesToTend>
+                <immunityGainSpeedMultiplier>1.5</immunityGainSpeedMultiplier>
+            </li>
+            <li>
+                <workLabelKey>FCP_GreatKhans_Riding_Drills_Label</workLabelKey>
+                <workDescKey>FCP_GreatKhans_Riding_Drills_Desc</workDescKey>
+                <workButtonIconTexPath>UI/Roles/SpecialistShooting</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Shooting>500</Shooting>
+                    <Melee>300</Melee>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.15</additionalRestFall>
+            </li>
+        </workOptions>
+
+        <!-- Resign Options -->
+
+        <resignGoodwillGain>-25</resignGoodwillGain>
+        <resignMenuTextKey>FCP_GreatKhans_Resign_Menu_Text</resignMenuTextKey>
+        <resignLetterTitleKey>FCP_GreatKhans_Resign_Letter_Title</resignLetterTitleKey>
+        <resignLetterLabelKey>FCP_GreatKhans_Resign_Letter_Label</resignLetterLabelKey>
+        <resignButtonLabelKey>FCP_GreatKhans_Resign_Button_Label</resignButtonLabelKey>
+        <resignButtonDescKey>FCP_GreatKhans_Resign_Button_Desc</resignButtonDescKey>
+        <resignButtonIconTexPath>UI/Issues/Apostasy</resignButtonIconTexPath>
+
+        <!-- Kicked Out Options -->
+
+        <kickOutLetterTitleKey>FCP_GreatKhans_Kick_Out_Letter_Title</kickOutLetterTitleKey>
+        <kickOutLetterLabelKey>FCP_GreatKhans_Kick_Out_Label_Title</kickOutLetterLabelKey>
+
+        <!-- Reinforcements Options -->
+
+        <reinforcementsAreEnabled>true</reinforcementsAreEnabled>
+        <reinforcementsButtonLabelKey>FCP_GreatKhans_Reinforcements_Button_Label</reinforcementsButtonLabelKey>
+        <reinforcementsButtonDescKey>FCP_GreatKhans_Reinforcements_Button_Desc</reinforcementsButtonDescKey>
+        <reinforcementsButtonIconTexPath>UI/Commands/WarTrumpet</reinforcementsButtonIconTexPath>
+        <reinforcementCallGoodwillCost>-5</reinforcementCallGoodwillCost>
+        <reinforcementCallCooldownTicks>50000</reinforcementCallCooldownTicks>
+        <reinforcementOptions>
+            <li>
+                <relationsRange>75~100</relationsRange>
+                <pointsRange>700~1600</pointsRange>
+            </li>
+            <li>
+                <relationsRange>50~74</relationsRange>
+                <pointsRange>500~750</pointsRange>
+            </li>
+        </reinforcementOptions>
+
+    </FCP.Enlist.FactionEnlistOptionsDef>
+
+</Defs>

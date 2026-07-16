@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Great Khans _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_GreatKhans_Enlist_Letter_Title>You have joined the Great Khans.</FCP_GreatKhans_Enlist_Letter_Title>
+	<FCP_GreatKhans_Enlist_Letter_Label>You're family now, whether you like it or not. That means you ride when we ride and you get paid when we get paid. There's caps and provisions waiting whenever you need them, and the family looks after its own.\n\n Don't make us regret it.</FCP_GreatKhans_Enlist_Letter_Label>
+	<FCP_GreatKhans_Enlist_Button_Label>Join the Great Khans.</FCP_GreatKhans_Enlist_Button_Label>
+	<FCP_GreatKhans_Enlist_Button_Desc>Ride with the Great Khans.</FCP_GreatKhans_Enlist_Button_Desc>
+	<FCP_GreatKhans_Enlist_Requrements_Not_Satisfied>You need to have minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_GreatKhans_Enlist_Requrements_Not_Satisfied>
+	<FCP_GreatKhans_Enlisted_With_Key>Enlisted with: The Great Khans</FCP_GreatKhans_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_GreatKhans_Missions_Label>Tasks</FCP_GreatKhans_Missions_Label>
+	<FCP_GreatKhans_Missions_Desc>Task descriptions</FCP_GreatKhans_Missions_Desc>
+	<FCP_GreatKhans_Menu_Missions_Desc>One of the family asks around for anyone who's got the stomach for a job.</FCP_GreatKhans_Menu_Missions_Desc>
+	<FCP_GreatKhans_Menu_Missions_Select_Quest>Select a Task: </FCP_GreatKhans_Menu_Missions_Select_Quest>
+	<FCP_GreatKhans_Menu_Missions_Start_Quest>Start Task ({0})</FCP_GreatKhans_Menu_Missions_Start_Quest>
+	<FCP_GreatKhans_Not_Enough_Money>Not enough caps</FCP_GreatKhans_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_GreatKhans_Salary_Label>Wages</FCP_GreatKhans_Salary_Label>
+	<FCP_GreatKhans_Salary_Desc>You are entitled to collect wages from this faction every 14 days.</FCP_GreatKhans_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_GreatKhans_Provisions_Label>Provisions</FCP_GreatKhans_Provisions_Label>
+	<FCP_GreatKhans_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- Survival meals\n- Pemmican</FCP_GreatKhans_Provisions_Desc>
+
+	<!-- Storage Options -->
+
+	<FCP_GreatKhans_Storage_Label>Storage</FCP_GreatKhans_Storage_Label>
+	<FCP_GreatKhans_Storage_Desc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's camps and will save contents even if you are no longer enlisted.</FCP_GreatKhans_Storage_Desc>
+
+	<!-- Work Options -->
+
+	<FCP_GreatKhans_Enforcer_Duty_Label>Enforcer Duty</FCP_GreatKhans_Enforcer_Duty_Label>
+	<FCP_GreatKhans_Enforcer_Duty_Desc>Lean on debtors and keep the peace for $9 an hour.</FCP_GreatKhans_Enforcer_Duty_Desc>
+	<FCP_GreatKhans_Field_Medic_Label>Field Medic</FCP_GreatKhans_Field_Medic_Label>
+	<FCP_GreatKhans_Field_Medic_Desc>Check in with the camp's field medic. This service tends to all of your team with herbal medicine. Immunity gain is also increased while your team is under care.</FCP_GreatKhans_Field_Medic_Desc>
+	<FCP_GreatKhans_Riding_Drills_Label>Riding Drills</FCP_GreatKhans_Riding_Drills_Label>
+	<FCP_GreatKhans_Riding_Drills_Desc>Train alongside the Khans with hourly experience gain on the following skills:\n\n- Shooting, Melee\n\nHourly experience gain stops when this faction is resting at night.</FCP_GreatKhans_Riding_Drills_Desc>
+
+	<!-- Resign Options -->
+
+	<FCP_GreatKhans_Resign_Menu_Text>You will resign from the Great Khans effective immediately. (-25 in relations)</FCP_GreatKhans_Resign_Menu_Text>
+	<FCP_GreatKhans_Resign_Letter_Title>Resigned</FCP_GreatKhans_Resign_Letter_Title>
+	<FCP_GreatKhans_Resign_Letter_Label>Resign</FCP_GreatKhans_Resign_Letter_Label>
+	<FCP_GreatKhans_Resign_Button_Label>You have successfully resigned from the Great Khans. (-25 relations)</FCP_GreatKhans_Resign_Button_Label>
+	<FCP_GreatKhans_Resign_Button_Desc>Leave this faction.</FCP_GreatKhans_Resign_Button_Desc>
+	<FCP_GreatKhans_Enlisted_To_Hostile_Faction>cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</FCP_GreatKhans_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_GreatKhans_Kick_Out_Letter_Title>Kicked out</FCP_GreatKhans_Kick_Out_Letter_Title>
+	<FCP_GreatKhans_Kick_Out_Label_Title>The family has cut you loose. You have been let go from the {FACTION_name}.</FCP_GreatKhans_Kick_Out_Label_Title>
+
+	<!-- Reinforcement Options -->
+
+	<FCP_GreatKhans_Reinforcements_Button_Label>Reinforcements</FCP_GreatKhans_Reinforcements_Button_Label>
+	<FCP_GreatKhans_Reinforcements_Button_Desc>Call for reinforcements from your faction. Amount of warriors and veterans they send depends on your current relations.</FCP_GreatKhans_Reinforcements_Button_Desc>
+
+</LanguageData>

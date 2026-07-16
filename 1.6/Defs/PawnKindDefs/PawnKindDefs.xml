@@ -134,7 +134,6 @@
             <li>FCP_Khan_Warrior</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Helmet</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>200~400</weaponMoney>
         <weaponTags>
@@ -144,6 +143,8 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -203,7 +204,6 @@
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Soldier</li>
             <li>FCP_Great_Khan_Helmet</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>350~600</weaponMoney>
         <weaponTags>
@@ -215,6 +215,8 @@
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
@@ -265,7 +267,6 @@
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Soldier</li>
             <li>FCP_Great_Khan_Helmet</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>850~1400</weaponMoney>
         <weaponTags>
@@ -352,7 +353,6 @@
             <li>FCP_Khan_Warrior</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Helmet</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>300~500</weaponMoney>
         <weaponTags>
@@ -434,7 +434,6 @@
         <apparelTags>
             <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>140~300</weaponMoney>
         <weaponTags>
@@ -465,7 +464,6 @@
         <apparelTags>
             <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>140~200</weaponMoney>
         <weaponTags>
@@ -502,7 +500,6 @@
             <li>FCP_Khan_Trader</li>
             <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
-            <li>FCP_Raider_Armor</li>
         </apparelTags>
         <weaponMoney>140~300</weaponMoney>
         <weaponTags>

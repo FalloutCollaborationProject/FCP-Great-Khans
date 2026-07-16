@@ -632,6 +632,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Born_Khan</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Born_Khan</identifier>
         <slot>Childhood</slot>
         <title>Born Khan</title>
@@ -658,6 +660,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Foundling</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Foundling</identifier>
         <slot>Childhood</slot>
         <title>Khan Foundling</title>
@@ -681,6 +685,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Educated_Khan</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Educated_Khan</identifier>
         <slot>Childhood</slot>
         <title>Educated Khan</title>
@@ -703,6 +709,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Raid_Survivor</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Raid_Survivor</identifier>
         <slot>Childhood</slot>
         <title>Raid Survivor</title>
@@ -727,6 +735,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Ruffian</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Ruffian</identifier>
         <slot>Childhood</slot>
         <title>Khan Ruffian</title>
@@ -749,6 +759,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Young_Herder</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Young_Herder</identifier>
         <slot>Childhood</slot>
         <title>Young Herder</title>
@@ -771,6 +783,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Neglected_Khan_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Neglected_Khan_Child</identifier>
         <slot>Childhood</slot>
         <title>Neglected Khan Child</title>
@@ -794,6 +808,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Child_Prodigy</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Child_Prodigy</identifier>
         <slot>Childhood</slot>
         <title>Khan Child Prodigy</title>
@@ -816,6 +832,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Tribal_Survivor</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Tribal_Survivor</identifier>
         <slot>Childhood</slot>
         <title>Tribal Survivor</title>
@@ -837,6 +855,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Daredevil</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Daredevil</identifier>
         <slot>Childhood</slot>
         <title>Khan Daredevil</title>
@@ -859,6 +879,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Warriors_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Warriors_Child</identifier>
         <slot>Childhood</slot>
         <title>Warrior’s Child</title>
@@ -881,6 +903,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Runt</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Runt</identifier>
         <slot>Childhood</slot>
         <title>Khan Runt</title>
@@ -902,6 +926,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Idealistic_Khan_Youngling</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Idealistic_Khan_Youngling</identifier>
         <slot>Childhood</slot>
         <title>Idealistic Khan Youngling</title>
@@ -924,6 +950,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Roaming_Khan_Kid</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Roaming_Khan_Kid</identifier>
         <slot>Childhood</slot>
         <title>Roaming Khan Kid</title>
@@ -946,6 +974,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Khan_Cave_Dweller</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Cave_Dweller</identifier>
         <slot>Childhood</slot>
         <title>Khan Cave Dweller</title>

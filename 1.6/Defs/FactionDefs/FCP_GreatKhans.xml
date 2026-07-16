@@ -185,7 +185,7 @@
             <!-- Make them hostile to the NCR -->
             <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="altushka.boscompendium">FCP_Faction_NCR</li>
+                    <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
@@ -230,6 +230,13 @@
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
+            </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_GreatKhans</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
                 </modExtensions>
     </FactionDef>
