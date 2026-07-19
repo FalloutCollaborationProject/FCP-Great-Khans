@@ -8,7 +8,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_GreatKhans</defName>
         <label>Great Khans</label>
-        <description>The Great Khans are a tribal raider society that traces its roots back to the pre-war biker gangs of California. Once one of the most powerful raider tribes in the wasteland, they have endured numerous conflicts with the NCR and other factions that have decimated their numbers. Despite their setbacks, the Khans remain proud and fiercely independent, refusing to bow to anyone. They have become experts at producing chems, which they trade for weapons and supplies. The Khans value strength, loyalty to the tribe, and the freedom to live as they choose - free from the laws and taxes of "civilized" societies. They are a nomadic people, living in yurts and tents that can be quickly packed up when it's time to move on.</description>
+        <description>The Great Khans are a tribal raider society descended from the survivors of Vault 15, who spilled out into the wasteland and forged themselves into one of the most feared raider tribes in New California. Nearly exterminated by the Enclave, the shattered remnants of the tribe regrouped and made the long trek east, reforming and rebuilding in the Mojave. Once one of the most powerful raider tribes in the wasteland, they have endured numerous conflicts with the NCR and other factions that have decimated their numbers. Despite their setbacks, the Khans remain proud and fiercely independent, refusing to bow to anyone. They have become experts at producing chems, which they trade for weapons and supplies. The Khans value strength, loyalty to the tribe, and the freedom to live as they choose - free from the laws and taxes of "civilized" societies. They are a nomadic people, living in yurts and tents that can be quickly packed up when it's time to move on.</description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -22,7 +22,7 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Papa Khan</leaderTitle>
         <fixedLeaderKinds>
-            <li>FCP_Pawnkind_Khan_Advisor</li>
+            <li>FCP_Unique_Pawnkind_Papa_Khan</li>
         </fixedLeaderKinds>
         <factionIconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
@@ -126,7 +126,8 @@
 
             <!-- Khan Raiding Party -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <!-- Hardline warriors -->
                 <kindDef>Combat</kindDef>
                 <options>
                     <FCP_Pawnkind_Khan_Warrior>10</FCP_Pawnkind_Khan_Warrior>
@@ -134,11 +135,19 @@
                     <FCP_Pawnkind_Khan_Chem_Thrower>3</FCP_Pawnkind_Khan_Chem_Thrower>
                     <FCP_Pawnkind_Khan_Enforcer>2</FCP_Pawnkind_Khan_Enforcer>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Great_Khan_Melissa</li>
+                    <li>FCP_Character_Great_Khan_Oscar</li>
+                    <li>FCP_Character_Great_Khan_Jessup</li>
+                    <li>FCP_Character_Great_Khan_Anders</li>
+                </characterDefs>
+                <characterChance>0.25</characterChance>
             </li>
 
             <!-- Khan Peaceful Visitors -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <!-- Jerry the Punk -->
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <FCP_Pawnkind_Khan_Warrior>8</FCP_Pawnkind_Khan_Warrior>
@@ -146,6 +155,10 @@
                     <FCP_Pawnkind_Khan_Veteran>3</FCP_Pawnkind_Khan_Veteran>
                     <FCP_Pawnkind_Khan_Enforcer>1</FCP_Pawnkind_Khan_Enforcer>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Great_Khan_Jerry</li>
+                </characterDefs>
+                <characterChance>0.15</characterChance>
             </li>
 
             <!-- Khan Traders -->
@@ -168,7 +181,8 @@
 
             <!-- Khan Settlement -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <!-- The home camp -->
                 <kindDef>Settlement</kindDef>
                 <options>
                     <FCP_Pawnkind_Khan_Civilian>15</FCP_Pawnkind_Khan_Civilian>
@@ -178,6 +192,13 @@
                     <FCP_Pawnkind_Khan_Enforcer>2</FCP_Pawnkind_Khan_Enforcer>
                     <FCP_Pawnkind_Khan_Advisor>1</FCP_Pawnkind_Khan_Advisor>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Great_Khan_Regis</li>
+                    <li>FCP_Character_Great_Khan_Jack</li>
+                    <li>FCP_Character_Great_Khan_Diane</li>
+                    <li>FCP_Character_Great_Khan_Karl</li>
+                </characterDefs>
+                <characterChance>0.30</characterChance>
             </li>
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>

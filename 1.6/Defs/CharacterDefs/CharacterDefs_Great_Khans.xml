@@ -13,6 +13,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_GreatKhans</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
