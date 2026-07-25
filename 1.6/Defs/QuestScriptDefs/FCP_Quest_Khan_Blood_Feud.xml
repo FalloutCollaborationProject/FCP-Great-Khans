@@ -19,11 +19,12 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->It's time to settle an old score. [asker_nameFull] hasn't forgotten what a rival gang did last season, and the family doesn't let a killing go unanswered.</li>
-                <li>questDescription->[asker_nameFull]: "They took one of ours a while back, figured that was the end of it. It isn't. We're riding out to remind them what family means to the Khans."</li>
-                <li>questDescription->A rival gang's been talking big since they crossed the Khans last season. [asker_nameFull] is done letting them enjoy it.</li>
-                <li>questDescription->Blood for blood, that's the whole ask. A rival crew camped nearby has it coming, and [asker_nameFull] intends to collect personally.</li>
-                <li>questDescription->Old grudges don't fade out here, they fester. [asker_nameFull] wants this one ended before it costs the family more than it already has.</li>
+                <li>requirements->Requirements: defeat every member of the rival crew at the site. If they scatter before you arrive, the feud stays open.</li>
+                <li>questDescription->It's time to settle an old score. [asker_nameFull] hasn't forgotten what a rival gang did last season, and the family doesn't let a killing go unanswered.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "They took one of ours a while back, figured that was the end of it. It isn't. We're riding out to remind them what family means to the Khans."\n\n[requirements]</li>
+                <li>questDescription->A rival gang's been talking big since they crossed the Khans last season. [asker_nameFull] is done letting them enjoy it.\n\n[requirements]</li>
+                <li>questDescription->Blood for blood, that's the whole ask. A rival crew camped nearby has it coming, and [asker_nameFull] intends to collect personally.\n\n[requirements]</li>
+                <li>questDescription->Old grudges don't fade out here, they fester. [asker_nameFull] wants this one ended before it costs the family more than it already has.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

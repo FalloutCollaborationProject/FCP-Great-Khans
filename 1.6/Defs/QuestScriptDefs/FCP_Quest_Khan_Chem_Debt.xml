@@ -19,10 +19,11 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->A chem run went bad. The gang that hit it kept the product and kept the runner too. [asker_nameFull] wants both back, but honestly the runner matters more.</li>
-                <li>questDescription->[asker_nameFull]: "They're holding one of ours along with the shipment. Nobody keeps family. Go get them back."</li>
-                <li>questDescription->One of the Khans didn't make it back from a run. [asker_nameFull] found out they're being held somewhere close by, and the family doesn't leave people behind.</li>
-                <li>questDescription->A rival crew grabbed a Khan runner during a job. [asker_nameFull] doesn't care what it costs to get them out - the Khans look after their own.</li>
+                <li>requirements->Requirements: get the prisoner out of the site alive. If they die before you free them, the debt goes unpaid.</li>
+                <li>questDescription->A chem run went bad. The gang that hit it kept the product and kept the runner too. [asker_nameFull] wants both back, but honestly the runner matters more.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "They're holding one of ours along with the shipment. Nobody keeps family. Go get them back."\n\n[requirements]</li>
+                <li>questDescription->One of the Khans didn't make it back from a run. [asker_nameFull] found out they're being held somewhere close by, and the family doesn't leave people behind.\n\n[requirements]</li>
+                <li>questDescription->A rival crew grabbed a Khan runner during a job. [asker_nameFull] doesn't care what it costs to get them out - the Khans look after their own.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

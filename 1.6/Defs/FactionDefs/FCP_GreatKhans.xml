@@ -163,8 +163,11 @@
 
             <!-- Khan Traders -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_Khan_Chem_Dealer</li>
+                </traderKinds>
                 <traders>
                     <FCP_Pawnkind_Khan_Chem_Dealer>1</FCP_Pawnkind_Khan_Chem_Dealer>
                 </traders>
@@ -177,6 +180,16 @@
                     <FCP_Pawnkind_Khan_Veteran>3</FCP_Pawnkind_Khan_Veteran>
                     <FCP_Pawnkind_Khan_Enforcer>1</FCP_Pawnkind_Khan_Enforcer>
                 </guards>
+                <characterDefs>
+                    <li>FCP_Character_Great_Khan_Melissa</li>
+                </characterDefs>
+                <characterTraderKinds>
+                    <li>
+                        <key>FCP_Character_Great_Khan_Melissa</key>
+                        <value>FCP_Caravan_Khan_Chem_Dealer</value>
+                    </li>
+                </characterTraderKinds>
+                <characterChance>0.3</characterChance>
             </li>
 
             <!-- Khan Settlement -->

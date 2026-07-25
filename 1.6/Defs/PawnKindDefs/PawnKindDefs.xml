@@ -56,9 +56,9 @@
         <weaponMoney>500~800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed_Advanced</li>
         </weaponTags>
@@ -138,9 +138,9 @@
         <weaponMoney>200~400</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
             <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
@@ -208,10 +208,10 @@
         <weaponMoney>350~600</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
@@ -272,9 +272,9 @@
         <weaponTags>
             <li>Gun</li>
             <li>GunHeavy</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_HeavyWeapon</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Heavy_Weapon</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
             <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed_Advanced</li>
         </weaponTags>
@@ -358,8 +358,8 @@
         <weaponTags>
             <li>IncendiaryRanged</li>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -438,8 +438,8 @@
         <weaponMoney>140~300</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -469,7 +469,7 @@
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -505,8 +505,8 @@
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>

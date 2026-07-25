@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_GreatKhans_Caravan</defName>
+        <label>Khan Caravan</label>
+        <description>Your caravan split from the main Khan camp chasing a chem deal that fell through, and now you're too far out to catch up before the tribe moves on. The Great Khans have survived worse than getting left behind. Time to plant your own flag.</description>
+        <scenario>
+            <summary>A splinter of the Great Khans, separated from their tribe, settle where they stand.</summary>
+            <parts>
+
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_Khan_Warrior</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Khan_Veteran</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Khan_Warrior</kindDef>
+                            <count>3</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Khan_Chem_Maker</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_GreatKhans</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_GreatKhans</enlistOptionsDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <count>150</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_Great_Khan_Simple_Armor</thingDef>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_Great_Khan_Helmet</thingDef>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined" MayRequire="Rick.FCP.BallisticWeapons">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Gun_10mm_Pistol</thingDef>
+                    <count>5</count>
+                </li>
+
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>It is the year [FCP_Year]. The deal went bad, the buyer didn't show, and by the time you'd finished arguing about it the tribe's dust trail was gone over the ridge. No radio, no rendezvous point - just each other and whatever's still strapped to the bikes.\n\nThe Khans don't wait for stragglers. So don't be one. Make this patch of dirt yours.</text>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

@@ -63,4 +63,35 @@
         <genStep Class="GenStep_Power"/>
     </GenStepDef>
 
+    <!-- Site: Supply Line Raiders -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Khan_Supply_Raiders</defName>
+        <label>hostile camp</label>
+        <description>Hostiles who have been picking off Khan supply runs.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Khan_Supply_Raiders</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Supply_Raiders_Outpost</defName>
+        <linkWithSite>FCP_Site_Khan_Supply_Raiders</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Khan_Supply_Raiders_Power</defName>
+        <linkWithSite>FCP_Site_Khan_Supply_Raiders</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
 </Defs>

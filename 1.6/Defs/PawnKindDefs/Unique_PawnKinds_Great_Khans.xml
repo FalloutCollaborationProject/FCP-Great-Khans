@@ -22,8 +22,8 @@
         <weaponMoney>1500~2200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
         </weaponTags>
         <initialWillRange>7~8</initialWillRange>
         <initialResistanceRange>30~40</initialResistanceRange>
@@ -99,8 +99,8 @@
         <weaponMoney>1200~1800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
         </weaponTags>
         <initialWillRange>6~7</initialWillRange>
         <initialResistanceRange>26~36</initialResistanceRange>
@@ -167,6 +167,7 @@
         <defName>FCP_Unique_Pawnkind_Melissa</defName>
         <label>Melissa</label>
         <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <trader>true</trader>
         <combatPower>95</combatPower>
         <itemQuality>Good</itemQuality>
         <gearHealthRange>0.9~1.0</gearHealthRange>
@@ -177,8 +178,8 @@
         <weaponMoney>1300~1900</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
         </weaponTags>
         <initialWillRange>6~7</initialWillRange>
         <initialResistanceRange>28~38</initialResistanceRange>
@@ -254,7 +255,7 @@
         <weaponMoney>1000~1500</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
             <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
@@ -331,7 +332,7 @@
         <weaponMoney>600~1000</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
         </weaponTags>
         <initialWillRange>4~5</initialWillRange>
         <initialResistanceRange>18~28</initialResistanceRange>
@@ -407,8 +408,8 @@
         <weaponMoney>800~1200</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
         </weaponTags>
         <initialWillRange>4~5</initialWillRange>
         <initialResistanceRange>20~30</initialResistanceRange>
@@ -485,8 +486,8 @@
         <weaponMoney>1100~1600</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>24~34</initialResistanceRange>
@@ -562,8 +563,8 @@
         <weaponMoney>1000~1500</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>23~33</initialResistanceRange>
@@ -639,8 +640,8 @@
         <weaponMoney>900~1400</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
         </weaponTags>
         <initialWillRange>4~5</initialWillRange>
         <initialResistanceRange>20~30</initialResistanceRange>
@@ -717,8 +718,8 @@
         <weaponMoney>950~1450</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
         </weaponTags>
         <initialWillRange>4~5</initialWillRange>
         <initialResistanceRange>21~31</initialResistanceRange>
