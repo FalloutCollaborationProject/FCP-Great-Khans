@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Great Khans Named Settlement Traders __________-->
+
+    <!--_____ Red Rock Canyon _____-->
+
+    <!--___ Great Khan Armory ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_RedRockCanyon_GreatKhanArmory</defName>
+        <label>Great Khan Armory</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>1200~2600</countRange>
+            </li>
+
+            <!--__ Khan Apparel __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Simple_Armor</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Soldier_Armor</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Armored_Leathers</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Suit_Armor</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Helmet</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Weapons (expansive armory stock) __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_Chinese_Pistol</li>
+                    <li>FCP_Gun_SawnOff_Shotgun</li>
+                    <li>FCP_Gun_32_Hunting_Rifle</li>
+                </thingDefs>
+                <countRange>3~7</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Bat_Spiked</li>
+                    <li>FCP_Melee_Ripper</li>
+                    <li>FCP_Melee_Sledgehammer</li>
+                    <li>FCP_Melee_Chainsaw</li>
+                </thingDefs>
+                <countRange>2~6</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDefs>
+                    <li>FCP_Grenade_Molotov_Cocktail</li>
+                    <li>FCP_Grenade_Pipebomb</li>
+                    <li>FCP_Grenade_Tincan</li>
+                </thingDefs>
+                <countRange>3~7</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponMelee</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Red Rock Drug Lab ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_RedRockCanyon_RedRockDrugLab</defName>
+        <label>Red Rock Drug Lab</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>1200~2600</countRange>
+            </li>
+
+            <!--__ Jet (primary revenue source) __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Jet</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <!--__ Chems __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Psycho</li>
+                    <li>FCP_Chem_Buffout</li>
+                    <li>FCP_Chem_Mentats</li>
+                    <li>FCP_Chem_Turbo</li>
+                </thingDefs>
+                <countRange>15~40</countRange>
+            </li>
+
+            <!--__ Vanilla Drugs __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>5~9</thingDefCountRange>
+                <totalPriceRange>600~1400</totalPriceRange>
+            </li>
+
+            <!--__ Alcohol __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>25~65</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_Radaway</li>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_MedX</li>
+                    <li>FCP_Chem_Diluted_Stimpak</li>
+                </thingDefs>
+                <countRange>15~35</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>PlantFoodRaw</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

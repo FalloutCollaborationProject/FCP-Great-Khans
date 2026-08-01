@@ -253,6 +253,7 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>1</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_Mesa</li>
                     <li MayRequire="FIP.Arktos">Arktos_Canyon</li>
@@ -264,6 +265,27 @@
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
+                <namedSettlements>
+                    <!-- Red Rock Canyon -->
+                    <li>
+                        <name>Red Rock Canyon</name>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Great_Khan_Papa_Khan</li>
+                            <li>FCP_Character_Great_Khan_Jack</li>
+                            <li>FCP_Character_Great_Khan_Diane</li>
+                        </guaranteedCharacters>
+                        <traders>
+                            <li>
+                                <traderName>Great Khan Armory</traderName>
+                                <traderKind>FCP_Trader_RedRockCanyon_GreatKhanArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Red Rock Drug Lab</traderName>
+                                <traderKind>FCP_Trader_RedRockCanyon_RedRockDrugLab</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                </namedSettlements>
             </li>
             <!-- Enlistment stuff -->
             <li Class="FCP.Enlist.FactionEnlistOptions">
