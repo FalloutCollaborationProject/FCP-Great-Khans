@@ -253,7 +253,7 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
-                <maxSettlements>1</maxSettlements>
+                <maxSettlements>3</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_Mesa</li>
                     <li MayRequire="FIP.Arktos">Arktos_Canyon</li>
@@ -282,6 +282,26 @@
                             <li>
                                 <traderName>Red Rock Drug Lab</traderName>
                                 <traderKind>FCP_Trader_RedRockCanyon_RedRockDrugLab</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Vault 15 -->
+                    <li>
+                        <name>Vault 15</name>
+                        <traders>
+                            <li>
+                                <traderName>Vault 15 Salvage</traderName>
+                                <traderKind>FCP_Trader_Vault15_Salvage</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Blackfoot -->
+                    <li>
+                        <name>Blackfoot</name>
+                        <traders>
+                            <li>
+                                <traderName>Blackfoot Traders</traderName>
+                                <traderKind>FCP_Trader_Blackfoot_Traders</traderKind>
                             </li>
                         </traders>
                     </li>
