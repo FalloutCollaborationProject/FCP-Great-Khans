@@ -42,7 +42,7 @@
                 <countRange>2~4</countRange>
             </li>
 
-            <!--__ Weapons (expansive armory stock) __-->
+            <!--__ Weapons __-->
 
             <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
                 <thingDefs>
@@ -104,7 +104,7 @@
                 <countRange>1200~2600</countRange>
             </li>
 
-            <!--__ Jet (primary revenue source) __-->
+            <!--__ Jet __-->
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
                 <thingDef>FCP_Chem_Jet</thingDef>
@@ -185,7 +185,7 @@
                 <countRange>900~2000</countRange>
             </li>
 
-            <!--__ Resources (the vault the Khans' ancestors were exiled from) __-->
+            <!--__ Resources __-->
 
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Steel</thingDef>
@@ -227,20 +227,20 @@
         </stockGenerators>
     </TraderKindDef>
 
-    <!--_____ Blackfoot _____-->
+    <!--_____ Khan Base _____-->
 
-    <!--___ Blackfoot Traders ___-->
+    <!--___ Garl's Camp ___-->
 
     <TraderKindDef>
-        <defName>FCP_Trader_Blackfoot_Traders</defName>
-        <label>Blackfoot Traders</label>
+        <defName>FCP_Trader_KhanBase_GarlsCamp</defName>
+        <label>Garl's Camp</label>
         <stockGenerators>
 
             <!--__ Currency __-->
 
             <li Class="StockGenerator_SingleDef">
                 <thingDef>FCP_Currency_Caps</thingDef>
-                <countRange>900~2000</countRange>
+                <countRange>400~900</countRange>
             </li>
 
             <!--__ Khan Apparel __-->
@@ -249,20 +249,9 @@
                 <thingDef>FCP_Apparel_Great_Khan_Simple_Armor</thingDef>
                 <countRange>2~4</countRange>
             </li>
-            <li Class="StockGenerator_SingleDef">
-                <thingDef>FCP_Apparel_Great_Khan_Armored_Leathers</thingDef>
-                <countRange>1~3</countRange>
-            </li>
 
             <!--__ Weapons __-->
 
-            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
-                <thingDefs>
-                    <li>FCP_Gun_Chinese_Pistol</li>
-                    <li>FCP_Gun_SawnOff_Shotgun</li>
-                </thingDefs>
-                <countRange>2~5</countRange>
-            </li>
             <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
                 <thingDefs>
                     <li>FCP_Melee_Bat_Spiked</li>
@@ -270,21 +259,87 @@
                 </thingDefs>
                 <countRange>2~5</countRange>
             </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Chinese_Pistol</thingDef>
+                <countRange>1~3</countRange>
+            </li>
 
-            <!--__ Chems __-->
+            <!--__ Buying __-->
 
-            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponMelee</tag>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Bitter Springs _____-->
+
+    <!--___ Bitter Springs Muster ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_BitterSprings_Muster</defName>
+        <label>Bitter Springs Muster</label>
+        <stockGenerators>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>1000~2200</countRange>
+            </li>
+
+            <!--__ Khan Apparel __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Soldier_Armor</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Armored_Leathers</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Great_Khan_Helmet</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
                 <thingDefs>
-                    <li>FCP_Chem_Buffout</li>
-                    <li>FCP_Chem_Mentats</li>
+                    <li>FCP_Gun_Combat_Rifle_Standard</li>
+                    <li>FCP_Gun_32_Hunting_Rifle</li>
+                    <li>FCP_Gun_SawnOff_Shotgun</li>
                 </thingDefs>
-                <countRange>10~25</countRange>
+                <countRange>2~6</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Ripper</li>
+                    <li>FCP_Melee_Chainsaw</li>
+                </thingDefs>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDefs>
+                    <li>FCP_Grenade_Molotov_Cocktail</li>
+                    <li>FCP_Grenade_Pipebomb</li>
+                </thingDefs>
+                <countRange>2~6</countRange>
             </li>
 
             <!--__ Buying __-->
 
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>WeaponRanged</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>WeaponMelee</tag>
             </li>
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>Armor</tag>

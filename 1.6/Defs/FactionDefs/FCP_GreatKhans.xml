@@ -253,7 +253,7 @@
             </li>
             <!-- Clusters and biome configuration -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
-                <maxSettlements>3</maxSettlements>
+                <maxSettlements>4</maxSettlements>
                 <allowedBiomes>
                     <li MayRequire="FIP.Arktos">Arktos_Mesa</li>
                     <li MayRequire="FIP.Arktos">Arktos_Canyon</li>
@@ -269,6 +269,15 @@
                     <!-- Red Rock Canyon -->
                     <li>
                         <name>Red Rock Canyon</name>
+                        <mapGenerator>FCP_MapGen_Canyon</mapGenerator>
+                        <forcedMapSize>(300, 1, 300)</forcedMapSize>
+                        <preferredHilliness>
+                            <li>Mountainous</li>
+                        </preferredHilliness>
+                        <allowedBiomes>
+                            <li>Desert</li>
+                            <li>ExtremeDesert</li>
+                        </allowedBiomes>
                         <guaranteedCharacters>
                             <li>FCP_Character_Great_Khan_Papa_Khan</li>
                             <li>FCP_Character_Great_Khan_Jack</li>
@@ -295,13 +304,23 @@
                             </li>
                         </traders>
                     </li>
-                    <!-- Blackfoot -->
+                    <!-- Khan Base -->
                     <li>
-                        <name>Blackfoot</name>
+                        <name>Khan Base</name>
                         <traders>
                             <li>
-                                <traderName>Blackfoot Traders</traderName>
-                                <traderKind>FCP_Trader_Blackfoot_Traders</traderKind>
+                                <traderName>Garl's Camp</traderName>
+                                <traderKind>FCP_Trader_KhanBase_GarlsCamp</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Bitter Springs -->
+                    <li>
+                        <name>Bitter Springs</name>
+                        <traders>
+                            <li>
+                                <traderName>Bitter Springs Muster</traderName>
+                                <traderKind>FCP_Trader_BitterSprings_Muster</traderKind>
                             </li>
                         </traders>
                     </li>
