@@ -388,4 +388,42 @@
         </skillGains>
     </BackstoryDef>
 
+    <!-- McMurphy -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McMurphy_Child</defName>
+        <title>Raider's Son</title>
+        <titleShort>Raider's Son</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up trailing after Khan raiding parties, running errands and learning the roads long before [PAWN_pronoun] was old enough to ride with them. [PAWN_pronoun] learned fast that a job was a job, and that asking too many questions about who was paying only slowed things down.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McMurphy_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_McMurphy_Adult</defName>
+        <title>Hired War Party Leader</title>
+        <titleShort>War Party Leader</titleShort>
+        <baseDesc>[PAWN_nameDef] leads Khan war parties for whoever meets the price, no questions asked once the caps change hands. [PAWN_possessive] latest contract came from a Vegas dealer wanting a courier ambushed outside a nowhere town, a simple job that went bad the moment the mark survived a bullet to the skull.</baseDesc>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_McMurphy_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+            <Social>4</Social>
+        </skillGains>
+    </BackstoryDef>
+
 </Defs>

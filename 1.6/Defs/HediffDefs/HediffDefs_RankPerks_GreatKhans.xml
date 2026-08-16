@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Great Khans Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_Khan_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <!--_____ Path of the Warrior _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_Warrior</defName>
+        <label>warrior's edge</label>
+        <description>Proven in a fight, trusted to draw blood for the tribe.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_Enforcer</defName>
+        <label>enforcer's reputation</label>
+        <description>Trusted to keep the tribe's peace, one way or another.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_WarPartyLeader</defName>
+        <label>war party leader's command</label>
+        <description>Command of every rider willing to ride into a fight.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <SocialImpact>0.12</SocialImpact>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Path of the Chemist _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_ChemMaker</defName>
+        <label>chem maker's touch</label>
+        <description>Trusted with the cook pot and the tribe's chem trade.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <DrugCookingSpeed>0.15</DrugCookingSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_MasterChemist</defName>
+        <label>master chemist's craft</label>
+        <description>The tribe's finest cook, valued as highly as its greatest warriors.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <DrugCookingSpeed>0.3</DrugCookingSpeed>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Summit _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Khan_RankBase">
+        <defName>FCP_Hediff_Khan_Rank_GreatKhan</defName>
+        <label>the Great Khan's authority</label>
+        <description>Leader of the tribe. What the Great Khan says, goes.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.16</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Great Khan Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Khan_GreatKhan_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the Great Khan's presence</label>
+        <description>The Great Khan rides among the tribe. Nobody wants to look weak in front of them.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Great Khan Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Khan_GreatKhan_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>fired up</label>
+        <description>The Great Khan called the tribe together. Nobody wants to be the one who backs down now.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

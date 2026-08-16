@@ -101,4 +101,37 @@
         </grantedAbilities>
     </PreceptDef>
 
+    <!-- Khan Enforcer -->
+
+    <PreceptDef ParentName="PreceptRoleMultiBase">
+        <defName>FCP_IdeoRole_Khan_Enforcer</defName>
+        <label>Khan Enforcer</label>
+        <description>Enforcers keep the tribe's peace and lean on anyone who owes the Khans a debt. Strength earns them the respect that keeps the tribe in line.</description>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Shooting>13</Shooting>
+                </skills>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTags>
+            <li>Violent</li>
+        </roleRequiredWorkTags>
+        <requiredMemes>
+            <li>FCP_Meme_Khan_Freedom</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>ShootingAccuracyPawn</statDef>
+                <modifier>5</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>SocialImpact</statDef>
+                <modifier>0.08</modifier>
+            </li>
+        </roleEffects>
+        <displayOrderInImpact>1</displayOrderInImpact>
+    </PreceptDef>
+
 </Defs>

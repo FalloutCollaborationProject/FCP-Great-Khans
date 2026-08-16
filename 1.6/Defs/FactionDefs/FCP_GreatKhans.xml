@@ -32,6 +32,18 @@
             <li>FCP_Culture_Khan</li>
         </allowedCultures>
 
+        <!--__________ Royalty __________-->
+
+        <royalTitleTags>
+            <li>FCP_Title_GreatKhans</li>
+        </royalTitleTags>
+        <royalFavorLabel>respect</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+            <li>Child</li>
+            <li>Spouse</li>
+        </royalTitleInheritanceRelations>
+
         <!--__________ Ideology __________-->
 
         <fixedIdeo>true</fixedIdeo>
@@ -210,6 +222,7 @@
                     <li>FCP_Character_Great_Khan_Jack</li>
                     <li>FCP_Character_Great_Khan_Diane</li>
                     <li>FCP_Character_Great_Khan_Karl</li>
+                    <li>FCP_Character_Great_Khan_McMurphy</li>
                 </characterDefs>
                 <characterChance>0.30</characterChance>
             </li>
@@ -248,6 +261,10 @@
                         <newName>Khan Storyteller</newName>
                         <disableApparelRequirements>true</disableApparelRequirements>
                         <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Khan_Enforcer</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
                     </li>
                 </roleOverrides>
             </li>
@@ -307,6 +324,9 @@
                     <!-- Khan Base -->
                     <li>
                         <name>Khan Base</name>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Great_Khan_McMurphy</li>
+                        </guaranteedCharacters>
                         <traders>
                             <li>
                                 <traderName>Garl's Camp</traderName>
@@ -325,6 +345,12 @@
                         </traders>
                     </li>
                 </namedSettlements>
+            </li>
+            <!-- Rank track -->
+            <li Class="FCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>FCP_RankTrack_GreatKhans</li>
+                </rankTracks>
             </li>
             <!-- Enlistment stuff -->
             <li Class="FCP.Enlist.FactionEnlistOptions">

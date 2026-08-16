@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Great Khans Rank Expeditions __________-->
+
+    <!-- Loot -->
+
+    <ThingSetMakerDef>
+        <defName>FCP_KhanRankExpeditionLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Currency_Caps</li>
+                        <li>Beer</li>
+                        <li>SmokeleafJoint</li>
+                        <li>Yayo</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+    <!-- Novice -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Khan_Novice</defName>
+        <label>road run</label>
+        <description>A short ride out to lean on a debtor or scout a chem deal, the kind of run any rider can handle.</description>
+        <durationDays>3~5</durationDays>
+        <xpReward>
+            <Shooting>200</Shooting>
+        </xpReward>
+        <lootMaker>FCP_KhanRankExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>50~150</lootMarketValueRange>
+        <siteRevealChance>0.15</siteRevealChance>
+        <failureChance>0.12</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Khan_Novice_1</li>
+            <li>FCP_Rank_Expedition_Khan_Novice_2</li>
+            <li>FCP_Rank_Expedition_Khan_Novice_3</li>
+            <li>FCP_Rank_Expedition_Khan_Novice_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Veteran -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Khan_Veteran</defName>
+        <label>warpath</label>
+        <description>A tasked ride to settle a score or shake loose a debt the tribe's owed, the kind of run that gets talked about back at camp.</description>
+        <durationDays>6~8</durationDays>
+        <xpReward>
+            <Shooting>400</Shooting>
+            <Social>100</Social>
+        </xpReward>
+        <lootMaker>FCP_KhanRankExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>150~350</lootMarketValueRange>
+        <siteRevealChance>0.25</siteRevealChance>
+        <failureChance>0.1</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Khan_Veteran_1</li>
+            <li>FCP_Rank_Expedition_Khan_Veteran_2</li>
+            <li>FCP_Rank_Expedition_Khan_Veteran_3</li>
+            <li>FCP_Rank_Expedition_Khan_Veteran_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Elite -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Khan_Elite</defName>
+        <label>lone ride</label>
+        <description>A solo run into territory no prospect would survive, the kind only a war party leader or master chemist is trusted to make alone.</description>
+        <durationDays>8~10</durationDays>
+        <xpReward>
+            <Shooting>600</Shooting>
+            <Social>150</Social>
+        </xpReward>
+        <lootMaker>FCP_KhanRankExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>300~600</lootMarketValueRange>
+        <siteRevealChance>0.35</siteRevealChance>
+        <failureChance>0.08</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Khan_Elite_1</li>
+            <li>FCP_Rank_Expedition_Khan_Elite_2</li>
+            <li>FCP_Rank_Expedition_Khan_Elite_3</li>
+            <li>FCP_Rank_Expedition_Khan_Elite_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+    <!-- Sentinel -->
+
+    <FCP.Ranks.RankExpeditionDef>
+        <defName>FCP_Expedition_Khan_Sentinel</defName>
+        <label>the Great Khan's warpath</label>
+        <description>A long ride called by the Great Khan personally, the kind that decides whether the tribe's name gets bigger or gets buried.</description>
+        <durationDays>10~14</durationDays>
+        <xpReward>
+            <Shooting>800</Shooting>
+            <Social>200</Social>
+        </xpReward>
+        <lootMaker>FCP_KhanRankExpeditionLootMaker</lootMaker>
+        <lootMarketValueRange>500~900</lootMarketValueRange>
+        <siteRevealChance>0.5</siteRevealChance>
+        <failureChance>0.05</failureChance>
+        <returnFlavorKeys>
+            <li>FCP_Rank_Expedition_Khan_Sentinel_1</li>
+            <li>FCP_Rank_Expedition_Khan_Sentinel_2</li>
+            <li>FCP_Rank_Expedition_Khan_Sentinel_3</li>
+            <li>FCP_Rank_Expedition_Khan_Sentinel_4</li>
+        </returnFlavorKeys>
+    </FCP.Ranks.RankExpeditionDef>
+
+</Defs>

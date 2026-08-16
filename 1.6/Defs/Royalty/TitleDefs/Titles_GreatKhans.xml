@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Great Khans Titles __________-->
+
+    <!-- Prospect -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_Prospect</defName>
+        <label>prospect</label>
+        <description>New blood, taken in but not yet trusted. A prospect earns their place through the work no one else wants.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Rider -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_Rider</defName>
+        <label>rider</label>
+        <description>Prospects who've proven they'll ride when the tribe rides. Trusted enough to pick a road: the warrior's or the chemist's.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>150</seniority>
+        <favorCost>4</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Warrior -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_Warrior</defName>
+        <label>warrior</label>
+        <description>Riders who've drawn blood for the tribe and lived to ride again.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Great_Khan_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Enforcer -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_Enforcer</defName>
+        <label>enforcer</label>
+        <description>Warriors trusted to lean on debtors, settle scores, and keep the tribe's peace with their fists.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Great_Khan_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- War Party Leader -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_WarPartyLeader</defName>
+        <label>war party leader</label>
+        <description>Rides at the head of every raid and warpath the tribe rides, answering only to the Great Khan.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>2000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Great_Khan_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Chem Maker -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_ChemMaker</defName>
+        <label>chem maker</label>
+        <description>Riders who've taken up the cook pot, keeping the tribe's chems flowing and its trade routes paid.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Master Chemist -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_MasterChemist</defName>
+        <label>master chemist</label>
+        <description>The tribe's finest cook, valued as highly as its greatest warriors and trusted to teach the trade.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Great Khan -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_GreatKhans_GreatKhan</defName>
+        <label>Great Khan</label>
+        <description>Leader of the tribe, answering to no one, bowing to no one.</description>
+        <tags>
+            <li>FCP_Title_GreatKhans</li>
+        </tags>
+        <seniority>1200</seniority>
+        <favorCost>15</favorCost>
+        <changeHeirQuestPoints>3000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Great_Khan_Leader</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

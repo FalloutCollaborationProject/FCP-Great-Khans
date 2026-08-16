@@ -20,7 +20,8 @@
 	<FCP_GreatKhans_Missions_Desc>Task descriptions</FCP_GreatKhans_Missions_Desc>
 	<FCP_GreatKhans_Menu_Missions_Desc>One of the family asks around for anyone who's got the stomach for a job.</FCP_GreatKhans_Menu_Missions_Desc>
 	<FCP_GreatKhans_Menu_Missions_Select_Quest>Select a Task: </FCP_GreatKhans_Menu_Missions_Select_Quest>
-	<FCP_GreatKhans_Menu_Missions_Start_Quest>Start Task ({0})</FCP_GreatKhans_Menu_Missions_Start_Quest>
+	<FCP_GreatKhans_Menu_Missions_Start_Quest>Accept Task</FCP_GreatKhans_Menu_Missions_Start_Quest>
+	<FCP_GreatKhans_Menu_Missions_Collect_Bounty>Collect Reward</FCP_GreatKhans_Menu_Missions_Collect_Bounty>
 	<FCP_GreatKhans_Not_Enough_Money>Not enough caps</FCP_GreatKhans_Not_Enough_Money>
 
 	<!-- Salary Options -->

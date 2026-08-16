@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Novice -->
+
+	<FCP_Rank_Expedition_Khan_Novice_1>{PAWN} leaned on a debtor who suddenly remembered where they'd put the caps.</FCP_Rank_Expedition_Khan_Novice_1>
+	<FCP_Rank_Expedition_Khan_Novice_2>{PAWN} scouted a chem deal that fell through, but came back with a good sense of who's buying.</FCP_Rank_Expedition_Khan_Novice_2>
+	<FCP_Rank_Expedition_Khan_Novice_3>{PAWN} ran off a couple of scavengers picking through tribe territory.</FCP_Rank_Expedition_Khan_Novice_3>
+	<FCP_Rank_Expedition_Khan_Novice_4>{PAWN} spent the run chasing down a lead on a rival gang's stash.</FCP_Rank_Expedition_Khan_Novice_4>
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_Khan_Veteran_1>{PAWN} settled a score that had been owed to the tribe for a long time.</FCP_Rank_Expedition_Khan_Veteran_1>
+	<FCP_Rank_Expedition_Khan_Veteran_2>{PAWN} shook a debt loose from someone who thought the Khans had forgotten.</FCP_Rank_Expedition_Khan_Veteran_2>
+	<FCP_Rank_Expedition_Khan_Veteran_3>{PAWN} spent the warpath mapping a rival's territory, marking it for the next ride.</FCP_Rank_Expedition_Khan_Veteran_3>
+	<FCP_Rank_Expedition_Khan_Veteran_4>{PAWN} came back with a busted lip and a story the whole camp will hear tonight.</FCP_Rank_Expedition_Khan_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_Khan_Elite_1>{PAWN} rode in alone where a whole party would've gotten noticed, and rode back out clean.</FCP_Rank_Expedition_Khan_Elite_1>
+	<FCP_Rank_Expedition_Khan_Elite_2>{PAWN} ran the job exactly as planned, in, done, gone before anyone could react.</FCP_Rank_Expedition_Khan_Elite_2>
+	<FCP_Rank_Expedition_Khan_Elite_3>{PAWN} spent the better part of two weeks off the beaten path and came back with news the tribe will want to hear.</FCP_Rank_Expedition_Khan_Elite_3>
+	<FCP_Rank_Expedition_Khan_Elite_4>{PAWN} didn't say much about the run, just parked the bike and asked what's next.</FCP_Rank_Expedition_Khan_Elite_4>
+
+	<!-- Sentinel -->
+
+	<FCP_Rank_Expedition_Khan_Sentinel_1>{PAWN} pushed past anything the tribe's ever claimed, scouting ground for the next warpath.</FCP_Rank_Expedition_Khan_Sentinel_1>
+	<FCP_Rank_Expedition_Khan_Sentinel_2>{PAWN} came back from unclaimed territory with word of a stretch ready to fall under the tribe's name.</FCP_Rank_Expedition_Khan_Sentinel_2>
+	<FCP_Rank_Expedition_Khan_Sentinel_3>{PAWN} spent nearly two weeks out of contact and returned with news the Great Khan will want to hear in person.</FCP_Rank_Expedition_Khan_Sentinel_3>
+	<FCP_Rank_Expedition_Khan_Sentinel_4>{PAWN} rode back into camp carrying proof of what was found out past the edge of the map, road dust and dried blood in equal measure.</FCP_Rank_Expedition_Khan_Sentinel_4>
+
+</LanguageData>

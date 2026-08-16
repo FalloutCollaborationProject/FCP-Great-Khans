@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_GreatKhans</defName>
+        <label>Great Khans Standing</label>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <rootTier>FCP_Rank_Khan_Prospect</rootTier>
+        <owningFaction>FCP_Faction_GreatKhans</owningFaction>
+        <collectiveNoun>the tribe</collectiveNoun>
+        <drillLabel>Spar with...</drillLabel>
+        <drillDesc>Trade blows with any colonist to test your mettle. Both stop, stand apart, and draw their weapons. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Cook Together...</studyLabel>
+        <studyDesc>Cook up a batch alongside another colonist on the chemist's road, trading technique. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Gear Check...</inspectLabel>
+        <inspectDesc>Check a lower-ranked tribemate's weapon and gear. Well-kept gear earns respect, neglected gear earns scorn.</inspectDesc>
+        <punishLabel>Put to Work...</punishLabel>
+        <punishDesc>Put a lower-ranked tribemate to work for a stretch as payback for stepping out of line, souring their mood. Once per day per tribemate.</punishDesc>
+        <rallyLabel>Call the Tribe</rallyLabel>
+        <rallyDesc>Rouse every combat-ranked tribemate of {0} on this map with a burst of speed and fury. Once every few days.</rallyDesc>
+        <fallInLabel>Circle Up</fallInLabel>
+        <fallInDesc>Call {0} to circle up behind you, up to four deep, interrupting whatever they're doing. They hold until you break it up.</fallInDesc>
+        <dismissLabel>Break It Up</dismissLabel>
+        <dismissDesc>Break up the circle, letting {0} go back to what they were doing.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+</Defs>

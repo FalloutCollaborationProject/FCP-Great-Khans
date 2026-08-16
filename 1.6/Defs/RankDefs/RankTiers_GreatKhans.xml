@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Great Khans Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_Prospect</defName>
+        <label>prospect</label>
+        <description>New blood, taken in but not yet trusted. A prospect earns their place through the work no one else wants.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_Prospect</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_Rider</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_Rider</defName>
+        <label>rider</label>
+        <description>Prospects who've proven they'll ride when the tribe rides. Trusted enough to pick a road: the warrior's or the chemist's.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_Rider</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_Warrior</li>
+            <li>FCP_Rank_Khan_ChemMaker</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Warrior _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_Warrior</defName>
+        <label>warrior</label>
+        <description>Riders who've drawn blood for the tribe and lived to ride again.</description>
+        <pathName>Path of the Warrior</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Khan_Rank_Warrior</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_Warrior</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_Enforcer</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_Enforcer</defName>
+        <label>enforcer</label>
+        <description>Warriors trusted to lean on debtors, settle scores, and keep the tribe's peace with their fists.</description>
+        <minDaysInRank>13</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Social>5</Social>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Khan_Rank_Enforcer</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>850</Shooting>
+            <Melee>400</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_Enforcer</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Khan_Enforcer</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_WarPartyLeader</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_WarPartyLeader</defName>
+        <label>war party leader</label>
+        <description>Rides at the head of every raid and warpath the tribe rides, answering only to the Great Khan.</description>
+        <minDaysInRank>21</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>9</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Khan_Rank_WarPartyLeader</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1050</Shooting>
+            <Melee>550</Melee>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_WarPartyLeader</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_GreatKhan</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Chemist _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_ChemMaker</defName>
+        <label>chem maker</label>
+        <description>Riders who've taken up the cook pot, keeping the tribe's chems flowing and its trade routes paid.</description>
+        <pathName>Path of the Chemist</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>6</Intellectual>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Khan_Rank_ChemMaker</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>500</Intellectual>
+            <Crafting>700</Crafting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_ChemMaker</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_MasterChemist</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_MasterChemist</defName>
+        <label>master chemist</label>
+        <description>The tribe's finest cook, valued as highly as its greatest warriors and trusted to teach the trade.</description>
+        <minDaysInRank>17</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>12</Intellectual>
+            <Crafting>16</Crafting>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Khan_Rank_MasterChemist</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>700</Intellectual>
+            <Crafting>900</Crafting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_MasterChemist</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Khan_Chemist</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Khan_GreatKhan</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Khan_GreatKhan</defName>
+        <label>Great Khan</label>
+        <description>Leader of the tribe, answering to no one, bowing to no one.</description>
+        <minDaysInRank>26</minDaysInRank>
+        <skillRequirements>
+            <Social>15</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Khan_Rank_GreatKhan</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Crafting>400</Crafting>
+            <Social>400</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Khan_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_GreatKhans_GreatKhan</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_Khan_GreatKhan_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_Khan_GreatKhan_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>
