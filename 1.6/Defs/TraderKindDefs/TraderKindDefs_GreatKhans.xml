@@ -94,7 +94,7 @@
 
             <!-- Mentats -->
 
-            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems,Rick.FCP.Plants">
                 <thingDef>FCP_Chem_Mentats</thingDef>
                 <countRange>10~30</countRange>
             </li>
@@ -283,7 +283,7 @@
                 <countRange>30~70</countRange>
             </li>
 
-            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems,Rick.FCP.Plants">
                 <thingDef>FCP_Chem_Mentats</thingDef>
                 <countRange>15~40</countRange>
             </li>

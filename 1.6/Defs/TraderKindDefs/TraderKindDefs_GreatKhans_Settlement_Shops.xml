@@ -117,7 +117,7 @@
                 <thingDefs>
                     <li>FCP_Chem_Psycho</li>
                     <li>FCP_Chem_Buffout</li>
-                    <li>FCP_Chem_Mentats</li>
+                    <li MayRequire="Rick.FCP.Plants">FCP_Chem_Mentats</li>
                     <li>FCP_Chem_Turbo</li>
                 </thingDefs>
                 <countRange>15~40</countRange>

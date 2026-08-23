@@ -184,8 +184,7 @@
                     <FCP_Pawnkind_Khan_Chem_Dealer>1</FCP_Pawnkind_Khan_Chem_Dealer>
                 </traders>
                 <carriers>
-                    <Muffalo>4</Muffalo>
-                    <Dromedary>3</Dromedary>
+                    <FCP_Animal_Brahmin>7</FCP_Animal_Brahmin>
                 </carriers>
                 <guards>
                     <FCP_Pawnkind_Khan_Warrior>8</FCP_Pawnkind_Khan_Warrior>

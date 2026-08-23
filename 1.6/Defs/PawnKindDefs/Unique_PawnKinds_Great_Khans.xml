@@ -473,7 +473,7 @@
     <!-- Karl -->
     
     <PawnKindDef ParentName="FCP_KhankindBase">
-        <defName>FCP_Unique_Pawnkind_Karl</defName>
+        <defName>FCP_Unique_Pawnkind_GreatKhan_Karl</defName>
         <label>Karl</label>
         <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
         <combatPower>85</combatPower>

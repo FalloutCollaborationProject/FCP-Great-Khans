@@ -216,7 +216,7 @@
 
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Great_Khan_Karl</defName>
-        <pawnKind>FCP_Unique_Pawnkind_Karl</pawnKind>
+        <pawnKind>FCP_Unique_Pawnkind_GreatKhan_Karl</pawnKind>
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_GreatKhans</faction>
         <roles>
