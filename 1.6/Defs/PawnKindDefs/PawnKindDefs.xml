@@ -46,8 +46,6 @@
         <apparelMoney>800~1200</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Leader</li>
-            <li>FCP_Khan_Warrior</li>
             <li>FCP_Great_Khan_Elite</li>
             <li>FCP_Great_Khan_Leader</li>
             <li>FCP_Great_Khan_Armor</li>
@@ -131,7 +129,6 @@
         <apparelMoney>300~600</apparelMoney>
         <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Warrior</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Helmet</li>
         </apparelTags>
@@ -199,8 +196,6 @@
         <apparelMoney>500~800</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Warrior</li>
-            <li>FCP_Khan_Veteran</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Soldier</li>
             <li>FCP_Great_Khan_Helmet</li>
@@ -262,8 +257,6 @@
         <apparelMoney>600~1000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Warrior</li>
-            <li>FCP_Khan_Enforcer</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Soldier</li>
             <li>FCP_Great_Khan_Helmet</li>
@@ -350,7 +343,6 @@
         <apparelMoney>400~700</apparelMoney>
         <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Warrior</li>
             <li>FCP_Great_Khan_Armor</li>
             <li>FCP_Great_Khan_Helmet</li>
         </apparelTags>
@@ -432,7 +424,6 @@
         <apparelMoney>200~400</apparelMoney>
         <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
         </apparelTags>
         <weaponMoney>140~300</weaponMoney>
@@ -462,7 +453,6 @@
         <apparelMoney>200~400</apparelMoney>
         <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
         </apparelTags>
         <weaponMoney>140~200</weaponMoney>
@@ -497,8 +487,6 @@
         <apparelMoney>300~500</apparelMoney>
         <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Khan_Trader</li>
-            <li>FCP_Khan_Civilian</li>
             <li>FCP_Great_Khan_Armor</li>
         </apparelTags>
         <weaponMoney>140~300</weaponMoney>

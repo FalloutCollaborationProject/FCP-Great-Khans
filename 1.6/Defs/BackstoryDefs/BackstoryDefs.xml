@@ -28,6 +28,7 @@
         <spawnCategories>
             <li>FCP_Backstory_Khan</li>
             <li>FCP_Backstory_Wastelanders</li>
+            <li>FCP_Backstory_Khan_Chem_Runner</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -53,6 +54,7 @@
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Khan_Advisor</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -152,6 +154,7 @@
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Khan_Chem_Maker</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>

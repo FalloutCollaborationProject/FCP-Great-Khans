@@ -11,8 +11,8 @@
         <defName>FCP_Culture_Khan</defName>
         <label>Khan</label>
         <description>Culture of the Great Khans, a nomadic raider tribe descended from pre-war biker gangs.</description>
-        <pawnNameMaker>FCP_Great_Khan_Namer_Male</pawnNameMaker>
-        <pawnNameMakerFemale>FCP_Great_Khan_Namer_Female</pawnNameMakerFemale>
+        <pawnNameMaker>FCP_Khan_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_Khan_Namer_Female</pawnNameMakerFemale>
         <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoRustican</ideoNameMaker>
         <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
         <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
