@@ -4,85 +4,141 @@
     <!--__________ Great Khans Name Makers __________-->
 
     <!-- Male Name Maker -->
-    
+
     <RulePackDef>
         <defName>FCP_Khan_Namer_Male</defName>
         <rulePack>
             <rulesStrings>
-                <li>name->[KhanMaleName]</li>
-                <li>KhanMaleName->Regis</li>
-                <li>KhanMaleName->Darion</li>
-                <li>KhanMaleName->Jerry</li>
-                <li>KhanMaleName->Oscar</li>
-                <li>KhanMaleName->Chomps</li>
-                <li>KhanMaleName->Chance</li>
-                <li>KhanMaleName->Jessup</li>
-                <li>KhanMaleName->McMurphy</li>
-                <li>KhanMaleName->Jack</li>
-                <li>KhanMaleName->Diane</li>
-                <li>KhanMaleName->Anders</li>
-                <li>KhanMaleName->Ranger</li>
-                <li>KhanMaleName->Motor-Runner</li>
-                <li>KhanMaleName->Papa</li>
-                <li>KhanMaleName->Garl</li>
-                <li>KhanMaleName->Darion</li>
-                <li>KhanMaleName->Snake</li>
-                <li>KhanMaleName->Razor</li>
-                <li>KhanMaleName->Gunner</li>
-                <li>KhanMaleName->Duke</li>
-                <li>KhanMaleName->Axe</li>
-                <li>KhanMaleName->Spike</li>
-                <li>KhanMaleName->Hawk</li>
-                <li>KhanMaleName->Wolf</li>
-                <li>KhanMaleName->Bear</li>
-                <li>KhanMaleName->Steel</li>
-                <li>KhanMaleName->Brick</li>
-                <li>KhanMaleName->Tank</li>
-                <li>KhanMaleName->Diesel</li>
-                <li>KhanMaleName->Torch</li>
-                <li>KhanMaleName->Rust</li>
-                <li>KhanMaleName->Blade</li>
+                <li>name->[KhanMaleFirst] [KhanMaleLast]</li>
+
+                <li>KhanMaleFirst->Regis</li>
+                <li>KhanMaleFirst->Darion</li>
+                <li>KhanMaleFirst->Jerry</li>
+                <li>KhanMaleFirst->Oscar</li>
+                <li>KhanMaleFirst->Chomps</li>
+                <li>KhanMaleFirst->Chance</li>
+                <li>KhanMaleFirst->Jessup</li>
+                <li>KhanMaleFirst->Jack</li>
+                <li>KhanMaleFirst->Anders</li>
+                <li>KhanMaleFirst->Ranger</li>
+                <li>KhanMaleFirst->Snake</li>
+                <li>KhanMaleFirst->Razor</li>
+                <li>KhanMaleFirst->Gunner</li>
+                <li>KhanMaleFirst->Duke</li>
+                <li>KhanMaleFirst->Wolf</li>
+                <li>KhanMaleFirst->Bear</li>
+                <li>KhanMaleFirst->Diesel</li>
+                <li>KhanMaleFirst->Torch</li>
+                <li>KhanMaleFirst->Dutch</li>
+                <li>KhanMaleFirst->Kane</li>
+                <li>KhanMaleFirst->Boone</li>
+                <li>KhanMaleFirst->Cassidy</li>
+                <li>KhanMaleFirst->Nash</li>
+                <li>KhanMaleFirst->Vance</li>
+
+                <li>KhanMaleLast->McMurphy</li>
+                <li>KhanMaleLast->Axe</li>
+                <li>KhanMaleLast->Spike</li>
+                <li>KhanMaleLast->Hawk</li>
+                <li>KhanMaleLast->Steel</li>
+                <li>KhanMaleLast->Brick</li>
+                <li>KhanMaleLast->Tank</li>
+                <li>KhanMaleLast->Rust</li>
+                <li>KhanMaleLast->Blade</li>
+                <li>KhanMaleLast->Cutter</li>
+                <li>KhanMaleLast->Marrow</li>
+                <li>KhanMaleLast->Grit</li>
+                <li>KhanMaleLast->Flint</li>
+                <li>KhanMaleLast->Hollis</li>
+                <li>KhanMaleLast->Barlow</li>
+                <li>KhanMaleLast->Crowe</li>
+                <li>KhanMaleLast->Slade</li>
+                <li>KhanMaleLast->Hound</li>
+                <li>KhanMaleLast->Kestrel</li>
+                <li>KhanMaleLast->Marlow</li>
+                <li>KhanMaleLast->Reeve</li>
+                <li>KhanMaleLast->Colt</li>
+                <li>KhanMaleLast->Marsh</li>
+                <li>KhanMaleLast->Talon</li>
+                <li>KhanMaleLast->Ridge</li>
+                <li>KhanMaleLast->Sawyer</li>
+                <li>KhanMaleLast->Locke</li>
+                <li>KhanMaleLast->Doyle</li>
+                <li>KhanMaleLast->Sledge</li>
+                <li>KhanMaleLast->Bishop</li>
+                <li>KhanMaleLast->Cutlass</li>
+                <li>KhanMaleLast->Reyes</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
 
     <!-- Female Name Maker -->
-    
+
     <RulePackDef>
         <defName>FCP_Khan_Namer_Female</defName>
         <rulePack>
             <rulesStrings>
-                <li>name->[KhanFemaleName]</li>
-                <li>KhanFemaleName->Melissa</li>
-                <li>KhanFemaleName->Diane</li>
-                <li>KhanFemaleName->Roslyn</li>
-                <li>KhanFemaleName->Regis</li>
-                <li>KhanFemaleName->Erin</li>
-                <li>KhanFemaleName->Red</li>
-                <li>KhanFemaleName->Viper</li>
-                <li>KhanFemaleName->Raven</li>
-                <li>KhanFemaleName->Phoenix</li>
-                <li>KhanFemaleName->Storm</li>
-                <li>KhanFemaleName->Jade</li>
-                <li>KhanFemaleName->Crystal</li>
-                <li>KhanFemaleName->Ruby</li>
-                <li>KhanFemaleName->Scarlett</li>
-                <li>KhanFemaleName->Angel</li>
-                <li>KhanFemaleName->Mercy</li>
-                <li>KhanFemaleName->Justice</li>
-                <li>KhanFemaleName->Liberty</li>
-                <li>KhanFemaleName->Rebel</li>
-                <li>KhanFemaleName->Widow</li>
-                <li>KhanFemaleName->Fury</li>
-                <li>KhanFemaleName->Blaze</li>
-                <li>KhanFemaleName->Chaos</li>
-                <li>KhanFemaleName->Nova</li>
+                <li>name->[KhanFemaleFirst] [KhanFemaleLast]</li>
+
+                <li>KhanFemaleFirst->Melissa</li>
+                <li>KhanFemaleFirst->Diane</li>
+                <li>KhanFemaleFirst->Roslyn</li>
+                <li>KhanFemaleFirst->Regis</li>
+                <li>KhanFemaleFirst->Erin</li>
+                <li>KhanFemaleFirst->Red</li>
+                <li>KhanFemaleFirst->Viper</li>
+                <li>KhanFemaleFirst->Raven</li>
+                <li>KhanFemaleFirst->Phoenix</li>
+                <li>KhanFemaleFirst->Storm</li>
+                <li>KhanFemaleFirst->Jade</li>
+                <li>KhanFemaleFirst->Crystal</li>
+                <li>KhanFemaleFirst->Ruby</li>
+                <li>KhanFemaleFirst->Scarlett</li>
+                <li>KhanFemaleFirst->Angel</li>
+                <li>KhanFemaleFirst->Mercy</li>
+                <li>KhanFemaleFirst->Justice</li>
+                <li>KhanFemaleFirst->Liberty</li>
+                <li>KhanFemaleFirst->Rebel</li>
+                <li>KhanFemaleFirst->Widow</li>
+                <li>KhanFemaleFirst->Fury</li>
+                <li>KhanFemaleFirst->Blaze</li>
+                <li>KhanFemaleFirst->Chaos</li>
+                <li>KhanFemaleFirst->Nova</li>
+
+                <li>KhanFemaleLast->Harlow</li>
+                <li>KhanFemaleLast->Sable</li>
+                <li>KhanFemaleLast->Vesper</li>
+                <li>KhanFemaleLast->Marlowe</li>
+                <li>KhanFemaleLast->Briar</li>
+                <li>KhanFemaleLast->Onyx</li>
+                <li>KhanFemaleLast->Tempest</li>
+                <li>KhanFemaleLast->Reyna</li>
+                <li>KhanFemaleLast->Wren</li>
+                <li>KhanFemaleLast->Cinder</li>
+                <li>KhanFemaleLast->Shale</li>
+                <li>KhanFemaleLast->Vixen</li>
+                <li>KhanFemaleLast->Cassia</li>
+                <li>KhanFemaleLast->Marrow</li>
+                <li>KhanFemaleLast->Dusk</li>
+                <li>KhanFemaleLast->Talon</li>
+                <li>KhanFemaleLast->Sorrow</li>
+                <li>KhanFemaleLast->Winter</li>
+                <li>KhanFemaleLast->Echo</li>
+                <li>KhanFemaleLast->Ravensong</li>
+                <li>KhanFemaleLast->Delphine</li>
+                <li>KhanFemaleLast->Larkin</li>
+                <li>KhanFemaleLast->Priscilla</li>
+                <li>KhanFemaleLast->Roux</li>
+                <li>KhanFemaleLast->Ember</li>
+                <li>KhanFemaleLast->Cortez</li>
+                <li>KhanFemaleLast->Marrigan</li>
+                <li>KhanFemaleLast->Halcyon</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>
 
     <!-- Leader Title Maker -->
-    
+
     <RulePackDef>
         <defName>FCP_LeaderTitleMaker_Khan</defName>
         <rulePack>

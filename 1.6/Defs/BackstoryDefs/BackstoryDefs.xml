@@ -886,8 +886,8 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Khan_Warriors_Child</identifier>
         <slot>Childhood</slot>
-        <title>Warrior’s Child</title>
-        <titleShort>Warrior’s Child</titleShort>
+        <title>Warrior's Child</title>
+        <titleShort>Warrior's Child</titleShort>
         <description>[PAWN_nameDef] was the child of one of the tribe’s greatest warriors. [PAWN_pronoun] tried to emulate [PAWN_possessive] parent, much to the pride of [PAWN_possessive] progenitor.</description>
         <skillGains>
             <Shooting>2</Shooting>
