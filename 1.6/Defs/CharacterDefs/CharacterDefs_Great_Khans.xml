@@ -34,7 +34,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(80, 70, 60)</hairColor>
                 <hairDef>FCP_Hair_Warhawk</hairDef>
-                <beardDef>Goatee</beardDef>
+                <beardDef>FCP_Beard_Survivalist</beardDef>
                 <skinColorOverride>(165, 140, 115)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
@@ -340,7 +340,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(100, 85, 70)</hairColor>
                 <hairDef>FCP_Hair_Punked</hairDef>
-                <beardDef>NoBeard</beardDef>
+                <beardDef>FCP_Beard_Chopper</beardDef>
                 <skinColorOverride>(185, 160, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
@@ -372,7 +372,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(75, 60, 45)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>Goatee</beardDef>
+                <beardDef>FCP_Beard_Chopper</beardDef>
                 <skinColorOverride>(170, 145, 120)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
