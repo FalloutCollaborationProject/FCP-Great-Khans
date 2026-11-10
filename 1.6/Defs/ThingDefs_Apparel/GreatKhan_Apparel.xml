@@ -5,7 +5,7 @@
 
     <!--___ Great Khan Simple Armor ___-->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Great_Khan_Simple_Armor</defName>
         <label>Great Khan simple armor</label>
         <description>Lightweight armor worn by lower-ranking Great Khans. Made from scavenged materials and leather, it offers basic protection while maintaining mobility. The tribal designs mark the wearer as a member of the Great Khans.</description>
@@ -25,9 +25,6 @@
             <li>Leathery</li>
         </stuffCategories>
         <costStuffCount>60</costStuffCount>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
@@ -68,7 +65,7 @@
 
     <!--___ Great Khan Soldier Armor ___-->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Great_Khan_Soldier_Armor</defName>
         <label>Great Khan soldier armor</label>
         <description>Durable armor worn by Great Khan soldiers. Built from reinforced leather and scavenged metal plates, this armor provides substantial protection without sacrificing too much mobility. The skull emblems and war paint show this warrior has proven themselves in battle.</description>
@@ -88,9 +85,6 @@
             <li>Leathery</li>
         </stuffCategories>
         <costStuffCount>80</costStuffCount>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>240</MaxHitPoints>
             <WorkToMake>18000</WorkToMake>
@@ -136,7 +130,7 @@
 
     <!--___ Great Khan Helmet ___-->
 
-    <ThingDef ParentName="FCP_Hat_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base">
         <defName>FCP_Apparel_Great_Khan_Helmet</defName>
         <label>Great Khan helmet</label>
         <description>A tribal helmet worn by Great Khans, decorated with war paint, feathers, and sometimes animal skulls. While it provides decent head protection, its primary purpose is to intimidate enemies and showcase the warrior's status within the tribe.</description>
@@ -156,9 +150,6 @@
             <li>Leathery</li>
         </stuffCategories>
         <costStuffCount>30</costStuffCount>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToMake>7000</WorkToMake>
@@ -198,7 +189,7 @@
 
     <!--___ Armored Leathers ___-->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Great_Khan_Armored_Leathers</defName>
         <label>armored leathers</label>
         <description>Reinforced leather armor favored by Great Khans and other wasteland raiders. This armor combines flexibility with decent protection, featuring metal studs and plates sewn into heavy leather. It's ideal for those who value mobility and a menacing appearance.</description>
@@ -218,9 +209,6 @@
             <li>Leathery</li>
         </stuffCategories>
         <costStuffCount>100</costStuffCount>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>14000</WorkToMake>
@@ -263,7 +251,7 @@
 
     <!--___ Suit Armor ___-->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Great_Khan_Suit_Armor</defName>
         <label>suit armor</label>
         <description>A stylish yet protective outfit worn by elite Great Khans and high-ranking members. This unique armor combines pre-war formal wear with strategically placed armor plating, creating a distinctive look that commands respect. It's a symbol of status within the tribe.</description>
@@ -281,9 +269,6 @@
         <costList>
             <Cloth>90</Cloth>
         </costList>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>180</MaxHitPoints>
             <WorkToMake>14000</WorkToMake>
