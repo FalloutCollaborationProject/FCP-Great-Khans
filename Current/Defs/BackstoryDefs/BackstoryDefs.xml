@@ -69,7 +69,7 @@
         <slot>Adulthood</slot>
         <title>Yurt Maker</title>
         <titleShort>Yurt Maker</titleShort>
-        <description>Many Khans eschewed living in houses and preferred traditional tents called yurts or gers which, despite their size, could be quickly disassembled and transported in case of relocation. [PAWN_nameDef] was an expert at tailoring these tents from animal hides and scavenged fabrics. Their sturdiness was testament to [PAWN_possessive] skills and [PAWN_pronoun] was greatly valued by [PAWN_possessive] tribe.</description>
+        <description>Many Khans eschewed living in houses and preferred traditional tents called yurts or gers which, despite their size, could be quickly disassembled and transported in case of relocation. [PAWN_nameDef] was an expert at tailoring these tents from animal hides and scavenged fabrics. They held up well enough in bad weather that [PAWN_pronoun] was greatly valued by [PAWN_possessive] tribe.</description>
         <skillGains>
             <Construction>4</Construction>
             <Crafting>4</Crafting>
@@ -912,7 +912,7 @@
         <slot>Childhood</slot>
         <title>Khan Runt</title>
         <titleShort>Khan Runt</titleShort>
-        <description>[PAWN_nameDef] was born small and weak. Few Khan Children with these attributes survive their early childhood, either because of the harsh living conditions or because they are killed outright since a weak child would not survive the brutal initiation rites anyway. [PAWN_nameDef], however, endured and even prospered, a testament to [PAWN_possessive] tenacity.</description>
+        <description>[PAWN_nameDef] was born small and weak. Few Khan Children with these attributes survive their early childhood, either because of the harsh living conditions or because they are killed outright since a weak child would not survive the brutal initiation rites anyway. [PAWN_nameDef] lived anyway, and grew up stubborn because of it.</description>
         <skillGains>
             <Medicine>3</Medicine>
             <Intellectual>2</Intellectual>
